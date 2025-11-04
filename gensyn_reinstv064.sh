@@ -22,11 +22,11 @@ cd rl-swarm && git checkout v0.6.4 && python3 -m venv .venv && \
 
 # Скачивание кастомного скрипта на запуск ноды
 echo " Скачивание кастомного скрипта на запуск ноды"
-curl -o /root/rl-swarm/run_rl_swarm_true.sh https://raw.githubusercontent.com/JeTr1x/gensyn-install/refs/heads/main/run_rl_swarm_true.sh
+curl -o /root/rl-swarm/run_rl_swarm_true.sh https://raw.githubusercontent.com/jetrx32/gensyn/refs/heads/main/run_rl_swarm064.sh
 
 
 # Скачивание сервисника
-curl -o /root/rl-swarm/run_rl_swarm_true.sh https://raw.githubusercontent.com/JeTr1x/aztec_inst/refs/heads/main/run-rlsw-new.sh
+curl -o /etc/systemd/system/rl-swarm.service https://raw.githubusercontent.com/JeTr1x/gensyn-install/refs/heads/main/rl-swarm.service
 
 # Запуск  сервисника и вывод логов
 systemctl daemon-reload && \
