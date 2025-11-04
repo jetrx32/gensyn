@@ -17,7 +17,7 @@ cp /root/rlsv064_bak/userApiKey.json /root/rl-swarm/userApiKey.json && \
 cp /root/rlsv064_bak/userData.json /root/rl-swarm/userData.json && \
 # Скачивание кастомного скрипта на запуск ноды
 echo " Скачивание кастомного скрипта на запуск ноды"
-curl -o /root/rl-swarm/run_rl_swarm_true.sh https://raw.githubusercontent.com/JeTr1x/aztec_inst/refs/heads/main/run-rlsw-new.sh
+curl -o /root/rl-swarm/run_rl_swarm_true.sh https://raw.githubusercontent.com/jetrx32/gensyn/refs/heads/main/run_rl_swarm064.sh
 
 
 # Скачивание сервисника
